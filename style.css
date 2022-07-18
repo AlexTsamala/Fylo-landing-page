@@ -90,13 +90,43 @@ h1{
     border: 0.625px solid #EF4877;
 }
 
+.form-one{
+    display: flex;
+    flex-direction: column;
+}
+
+.forms-little-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.check-text{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+
+}
+
+#text{
+    color:#EF4877;
+    margin-bottom: 10px;
+    display:none;
+}
+
+#text-two{
+    color:white;
+    margin-bottom: 10px;
+    display:none;
+}
+
 .button{
-    border-radius: 3.125px;
+    border-radius: 1.5px;
     background: #2F65F8;
     font-family: Raleway;
-    font-size: 14px;
+    font-size: 10px;
     font-weight: 700;
-    line-height: 16px;
+    line-height: 12px;
     color:#ffff;
 }
 
@@ -281,6 +311,13 @@ footer{
     margin-bottom: 32px;
 }
 
+.phone-logo{
+    padding-right:19px;
+}
+
+.email-logo{
+    padding-right:19px;
+}
 
 .phone-number{
     margin-bottom:16px;
@@ -341,7 +378,195 @@ svg{
     border: 0.625px solid #EF4877;
 }
 
-@media (min-width: 1440px){
-    
+footer span:hover {
+    color:#6C9BFF;
 }
 
+@media (min-width: 1440px){
+header{
+    margin: 66px 80px 97px;
+}
+
+.form-one{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.form-two{
+    text-align: left;
+}
+.headers-buttons{
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.fylo-logo{
+    width:166px;
+    height:49px;
+}
+
+.top-div{
+    margin: 0 80px 164px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items:center;
+    text-align: start;
+}
+
+.illustration-one{
+    width:640px;
+    height:474px;
+}
+
+h1{
+    font-family: 'Raleway';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.text{
+    font-family: 'Open Sans';
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    max-width: 574px;
+}
+
+.first-input{
+    height: 45px;
+    width: 320px;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.middle-div{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    min-height: 665px;
+}
+
+.illustration-two{
+    width:542px;
+    height:409px;
+}
+
+.middle-div-header{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.green-button{
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom:50px;
+}
+
+.middle-div-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.ceo-big-div{
+    width: 356px;
+    height: 215px;
+    border-radius:5px;
+    margin:0;
+}
+
+.ceo-text{
+    font-size: 13px;
+    line-height: 23px;
+}
+
+.avatar-picture{
+    width:32px;
+    height:32px;
+}
+
+.name-of-ceo{
+    font-size: 11px;
+    line-height: 15px;
+}
+
+.status{
+    font-size: 8px;
+    line-height: 15px;
+}
+.bottom-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 112px 120px 85px 80px;
+}
+
+.bottom-div-second-bracket{
+    display: flex;
+    flex-direction: column;
+}
+h3{
+    font-size: 32px;
+    line-height: 48px;
+    text-align: start;
+}
+
+.bottom-div-text{
+    padding:0;
+    max-width: 543px;
+}
+
+.second-input{
+    height: 48px;
+    width: 480px;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.button{
+    border-radius: 3.2px;
+    height: 45px;
+    width: 200px;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.bottom-div-second-bracket{    
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 93px 262px 86px 80px;
+}
+
+svg{
+    transform: scale(0.71, 0.7);
+    margin-left: -25px;
+}
+
+.bracket{
+    margin-top:170px;
+}
+
+.footers-first-bracket{
+    margin-top:80px;
+}
+
+.phone-number{
+    margin-top:37px;
+    margin-right: 100px;
+}
+
+}
